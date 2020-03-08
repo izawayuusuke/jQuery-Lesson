@@ -1,0 +1,9 @@
+$(function(){
+  $('.box1').slideDown(3000,function(){
+    $('.box1').css({
+      'background-color':'#0000ff',
+      'width':'200px',
+      'height':'200px'
+    }).slideUp(3000);
+  });
+});
